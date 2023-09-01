@@ -6,6 +6,11 @@
   <title>デイトラ</title>
 </head>
 <body>
-  <h1>デイトラ</h1>
+  <h1>
+    <?php
+      echo 'Hello World!';
+      echo 'PHP'
+    ?>
+  </h1>
 </body>
 </html>
