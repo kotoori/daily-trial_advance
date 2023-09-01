@@ -8,20 +8,17 @@
 <body>
   <h1>
     <?php
-      echo 1 + 2;
+      $score = 96 + 2;
+      echo $score;
       echo '<br>';
-      echo 4 - 1;
+      $pai = 3.14;
+      $radius = 6;
+      $area =  $radius * $radius * $pai; #半径 * 半径 * 3.14
+      echo $area;
       echo '<br>';
-      echo 12 * 12;
+      $score = 200;
+      echo $score;
       echo '<br>';
-      echo 12 / 3;
-      echo '<br>';
-      echo 12 / 3 + 1;
-      echo '<br>';
-      echo 12 / (3 + 1);
-      echo '<br>';
-      echo 10 % 3;
-      phpinfo();
     ?>
   </h1>
 </body>
