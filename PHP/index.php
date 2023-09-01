@@ -8,17 +8,19 @@
 <body>
   <h1>
     <?php
-      $score = 96 + 2;
-      echo $score;
-      echo '<br>';
-      $pai = 3.14;
-      $radius = 6;
-      $area =  $radius * $radius * $pai; #半径 * 半径 * 3.14
-      echo $area;
-      echo '<br>';
-      $score = 200;
-      echo $score;
-      echo '<br>';
+      function calCircleArea($radius){
+        $pai = 3.14;
+        $area =  $radius * $radius * $pai; #半径 * 半径 * 3.14
+        return $area;
+      }
+      echo calCircleArea(1);
+      echo "<br>";
+      echo calCircleArea(2);
+      echo "<br>";
+      echo calCircleArea(3);
+      echo "<br>";
+      echo calCircleArea(4);
+      echo "<br>";
     ?>
   </h1>
 </body>
