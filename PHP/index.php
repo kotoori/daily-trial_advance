@@ -25,17 +25,10 @@
         }
         return;
       }
-      scoreCheck(100);
-      scoreCheck(80);
-      scoreCheck(79);
-      scoreCheck(60);
-      scoreCheck(59);
-      scoreCheck(40);
-      scoreCheck(39);
-      scoreCheck(20);
-      scoreCheck(19);
-      scoreCheck(0);
-      scoreCheck(-1);
+      $scoreArray = [100, 80, 79, 60, 59, 40, 39, 20, 19, 0, -2];
+      foreach($scoreArray as $score){
+        scoreCheck($score);
+      }
     ?>
   </h1>
 </body>
