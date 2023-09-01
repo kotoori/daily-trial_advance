@@ -8,26 +8,18 @@
 <body>
   <h1>
     <?php
-      function scoreCheck($score){
-        echo '点数は ';
-        echo $score;
-        echo ' です。ということは・・・';
-        if($score >= 80){
-          echo '点数は80点以上<br>';
-        }elseif($score >= 60){
-          echo '点数は60〜79の間<br>';
-        }elseif($score >= 40){
-          echo '点数は40〜59の間<br>';
-        }elseif($score >= 20){
-          echo '点数は20〜39の間<br>';
-        }else{
-          echo '点数は19以下<br>';
-        }
-        return;
-      }
-      $scoreArray = [100, 80, 79, 60, 59, 40, 39, 20, 19, 0, -2];
-      foreach($scoreArray as $score){
-        scoreCheck($score);
+    //連想配列
+      $score = ["数学" => 98, "英語" => 83, "社会" => 43, "国語" => 66, "理科" => 78];
+      echo $score["英語"];
+      echo "<br>";
+      $score["英語"] = 11;
+      echo $score["英語"];
+      echo "<br>";
+
+      //foreachも使える
+      foreach($score as $num){
+        echo $num;
+        echo "<br>";
       }
     ?>
   </h1>
