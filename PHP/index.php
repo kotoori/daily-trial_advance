@@ -8,9 +8,21 @@
 <body>
   <h1>
     <?php
-      echo 'Hello World!';
-      echo 'PHP'
-    ?>
+        echo 1 + 2;
+        echo '<br>';
+        echo 4 - 1;
+        echo '<br>';
+        echo 12 * 12;
+        echo '<br>';
+        echo 12 / 3;
+        echo '<br>';
+        echo 12 / 3 + 1;
+        echo '<br>';
+        echo 12 / (3 + 1);
+        echo '<br>';
+        echo 10 % 3;
+
+?>
   </h1>
 </body>
 </html>
