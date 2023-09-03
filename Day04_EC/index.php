@@ -1,4 +1,5 @@
-<?php require_once 'products.php' ?>
+<?php require_once 'products.php'; ?>
+<?php require_once 'functions.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,7 @@
           <div class="flex justify-between">
             <p class="card-price">
               <?php
-                echo $product["price"]."円";
+                echo displayPrice($product["price"]);
               ?>
             </p>
             <input min="0" class="item-number" type="number" value="0">
