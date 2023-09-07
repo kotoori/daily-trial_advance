@@ -1,5 +1,13 @@
-<?php require_once "./products.php"; ?>
-<?php require_once "./functions.php"; ?>
+<?php 
+  require_once "./products.php";
+  require_once "./functions.php";
+
+  $sum = 0;
+  foreach($products as $product){
+    $sum += $product["price"] * $_POST[$product["id"]];
+  }
+  $sum = displayPrice($sum);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +37,7 @@
         <?php endforeach; ?>
       </div>
       <div class="btn-footer bg-gray">
-        <input class="checkout-btn" type="submit" value="決済する">
+        <input class="checkout-btn" type="submit" value="<?php echo $sum."を決裁する" ?>">
       </div>
     </div>
   </div>
