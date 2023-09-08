@@ -1,12 +1,10 @@
 <?php 
   require_once "./products.php";
-  require_once "./functions.php";
+  require_once "./classes/cart.php";
 
-  $sum = 0;
   foreach($products as $product){
-    $sum += $product["price"] * $_POST[$product["id"]];
+    Cart::add($product, $_POST[$product->getId()]);
   }
-  $sum = displayPrice($sum);
 ?>
 
 <!DOCTYPE html>
@@ -23,13 +21,13 @@
       <h1 class="title">Shopping Cart</h1>
       <div class="carts-container">
         <?php foreach($products as $product): ?>
-          <?php if($_POST[$product["id"]] > 0):?>
+          <?php if($_POST[$product->getId()] > 0):?>
           <div class="cart-item">
             <div class="flex">
-              <img class="cart-item-img" src="<?php echo $product["image"]; ?>">
+              <img class="cart-item-img" src="<?php echo $product->getImage(); ?>">
               <div class="cart-item-detail">
-                <p class="cart-item-title"><?php echo $product["name"]; ?></p>
-                <p><?php echo $_POST[$product["id"]] ?> × <?php echo displayPrice($product["price"]); ?></p>
+                <p class="cart-item-title"><?php echo $product->getName(); ?></p>
+                <p><?php echo $_POST[$product->getId()] ?> × <?php echo $product->displayPrice(); ?></p>
               </div>
             </div>
           </div>
@@ -37,7 +35,7 @@
         <?php endforeach; ?>
       </div>
       <div class="btn-footer bg-gray">
-        <input class="checkout-btn" type="submit" value="<?php echo $sum."を決裁する" ?>">
+        <input class="checkout-btn" type="submit" value="<?php echo Cart::calTotalPrice()."を決裁する" ?>">
       </div>
     </div>
   </div>

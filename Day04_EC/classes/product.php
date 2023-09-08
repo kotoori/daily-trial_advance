@@ -24,8 +24,21 @@
       return $this->price;
     }
 
+    public function getPriceInTax(){
+      return $this->calPriceIncludedTax();
+    }
+
     public function getImage(){
       return $this->image;
+    }
+
+    private function calPriceIncludedTax(){
+      $taxRate = 0.1;
+      return $this->price + $this->price * $taxRate;
+    }
+
+    public function displayPrice(){
+      return $this->calPriceIncludedTax()."円";
     }
   }
 ?>
