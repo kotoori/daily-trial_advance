@@ -34,9 +34,11 @@
         <?php endif;?>
         <?php endforeach; ?>
       </div>
-      <div class="btn-footer bg-gray">
-        <input class="checkout-btn" type="submit" value="<?php echo Cart::calTotalPrice()."を決裁する" ?>">
-      </div>
+      <form action="payment.php" method="post">
+        <div class="btn-footer bg-gray">
+          <input class="checkout-btn" type="submit" value="<?php echo Cart::calTotalPrice()."を決裁する" ?>">
+        </div>
+      </form>
     </div>
   </div>
 </body>
