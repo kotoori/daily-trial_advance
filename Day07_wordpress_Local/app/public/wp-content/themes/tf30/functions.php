@@ -7,3 +7,14 @@
   }
 
   add_action("wp_enqueue_scripts", "my_script_init");
+
+  /* wordpress標準機能の拡張 */
+  function my_setup(){
+    add_theme_support('post-thumbnails'); /* アイキャッチ画像の設定 */
+    add_theme_support('automatic-feed-links'); /* RSSフィードのURL生成 */
+    add_theme_support('title-tag'); /* titleタグの自動生成 */
+    add_theme_support('html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption', 'style', 'script' ) ); /* マークアップをHTML5にする */
+  }
+
+  add_action("after_setup_theme", "my_setup");
+  
