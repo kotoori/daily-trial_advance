@@ -18,11 +18,8 @@
 	<meta property="og:description" content="">
 	<meta name="twitter:card" content="summary_large_image">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
-	<link rel="stylesheet" href="./css/style.css">
-
 	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/icon-home.png">
-
+	<?php wp_head(); ?>
 </head>
 
 <body>
@@ -524,9 +521,7 @@
 		<a href="#"><i class="fas fa-chevron-up"></i></a>
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="js/script.js"></script>
-
+	<?php wp_footer(); ?>
 </body>
 
 </html>
