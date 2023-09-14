@@ -86,13 +86,22 @@
 					<?php endif; ?>
 				</div><!-- /entries -->
 
+				<?php if(paginate_links()) :?>
 				<!-- pagination -->
 				<div class="pagination">
-					<span class="page-numbers current">1</span>
-					<a class="page-numbers" href="#">2</a>
-					<a class="page-numbers" href="#">3</a>
-					<a class="next page-numbers" href="#"><i class="fas fa-angle-right"></i></a>
+					<?php 
+						echo paginate_links(
+							array(
+								'end_size' => 0,
+								'mid_size' => 1,
+								'prev_next' => true,
+								'prev_text' => '<i class="fas fa-angle-left"></i>',
+								'next_text' => '<i class="fas fa-angle-right"></i>',
+							)
+						);
+					?>
 				</div><!-- /pagination -->
+				<?php endif; ?>
 
 			</main><!-- /primary -->
 
