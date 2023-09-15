@@ -2,16 +2,21 @@
 <html lang="ja" prefix="og: http://ogp.me/ns#">
 
 <head>
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
-
-	<meta property="og:title" content="TF-30">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://example.com/">
+  <?php if(is_archive()): ?>
+    <meta property="og:title" content="<?php single_cat_title(); ?>">
+    <meta property="og:site_name" content="<?php single_cat_title(); ?>">
+    <meta property="og:url" content="https://example.com/category/a/">
+    <meta property="og:image" content="https://example.com/category/a/img/ogp.png">
+  <?php else : ?>
+    <meta property="og:title" content="TF-30">
+    <meta property="og:site_name" content="TF-30">
+    <meta property="og:url" content="https://example.com/">
 	<meta property="og:image" content="https://example.com/img/ogp.png">
-	<meta property="og:site_name" content="TF-30">
+  <?php endif; ?>
+	<meta property="og:type" content="website">
 	<meta property="og:description" content="">
 	<meta name="twitter:card" content="summary_large_image">
 
@@ -20,7 +25,6 @@
 </head>
 
 <body>
-
 	<!-- header -->
 	<header id="header">
 		<div class="inner">
