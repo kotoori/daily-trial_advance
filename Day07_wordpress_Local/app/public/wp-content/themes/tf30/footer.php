@@ -1,8 +1,8 @@
 	<!-- footer-menu -->
 	<div id="footer-menu">
 		<div class="inner">
-			<div class="footer-logo"><a href="/">TF-30</a></div><!-- /footer-logo -->
-			<div class="footer-sub">サブタイトルが入りますサブタイトルが入ります</div><!-- /footer-sub -->
+			<div class="footer-logo"><a href="<?php home_url('/'); ?>/"><?php bloginfo('name'); ?></a></div><!-- /footer-logo -->
+			<div class="footer-sub"><?php bloginfo('description'); ?></div><!-- /footer-sub -->
 
 			<nav class="footer-nav">
         <?php wp_nav_menu(
