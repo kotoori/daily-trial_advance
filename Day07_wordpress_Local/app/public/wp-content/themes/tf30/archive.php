@@ -6,16 +6,12 @@
 
 			<!-- primary -->
 			<main id="primary">
-
-				<!-- breadcrumb -->
-				<div class="breadcrumb">
-					<span property="itemListElement" typeof="ListItem">
-						<a property="item" typeof="WebPage" href="/" class="home"><span property="name">ホーム</span></a>
-						<meta property="position" content="1">
-					</span>
-					<i class="fas fa-angle-right"></i>
-					<span class="current-item">カテゴリー名</span>
-				</div><!-- /breadcrumb -->
+        <?php if(function_exists('bcn_display')): ?>
+          <!-- breadcrumb -->
+          <div class="breadcrumb">
+            <?php bcn_display() ?>
+          </div><!-- /breadcrumb -->
+        <?php endif;?>
 
 
 				<div class="archive-head m_description">
