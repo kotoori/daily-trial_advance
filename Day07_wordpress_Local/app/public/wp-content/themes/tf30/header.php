@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
   <?php if(is_archive()): ?>
-    <meta property="og:title" content="<?php single_cat_title(); ?>">
-    <meta property="og:site_name" content="<?php single_cat_title(); ?>">
+    <meta property="og:title" content="<?php the_archive_title(); ?>">
+    <meta property="og:site_name" content="<?php the_archive_title(); ?>">
     <meta property="og:url" content="https://example.com/category/a/">
     <meta property="og:image" content="https://example.com/category/a/img/ogp.png">
   <?php else : ?>
