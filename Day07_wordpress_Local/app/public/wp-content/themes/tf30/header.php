@@ -9,7 +9,7 @@
     <meta property="og:title" content="<?php the_archive_title(); ?>">
     <meta property="og:site_name" content="<?php the_archive_title(); ?>">
     <?php $category = get_the_category();
-      if($category[0]): ?>
+      if($category && $category[0]): ?>
         <meta property="og:url" content="<?php echo esc_url(get_category_link($category[0]->term_id)); ?>">
         <meta property="og:image" content="<?php echo esc_url(get_category_link($category[0]->term_id)); ?>img/ogp.png">
       <?php else: ?>
