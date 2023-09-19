@@ -24,7 +24,7 @@
 					</div><!-- /archive-description -->
 				</div><!-- /archive-head -->
 
-          <?php get_template_part('entries'); ?>
+          <?php get_template_part('template-parts/entries'); ?>
 
 			</main><!-- /primary -->
 
