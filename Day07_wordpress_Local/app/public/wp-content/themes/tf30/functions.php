@@ -65,3 +65,42 @@ function my_archive_title($title) {
 };
 
 add_filter('get_the_archive_title', 'my_archive_title');
+
+function my_the_post_category($anchor = true){
+  $category = get_the_category();
+  if($category && $category[0]){
+    if($anchor){
+      echo '<a href="' . esc_url(get_category_link($category[0]->term_id)) . '">' . $category[0]->cat_name . '</a>';
+    }else{
+      echo $category[0]->cat_name;
+    }
+  }
+}
+
+function my_the_post_tag($post_id = 0){
+  if($post_id === 0){
+    $post_obj = get_queried_object();
+    $post_id = $post_obj->ID;
+  }
+
+  $post_tags = get_the_tags($post_id);
+  if($post_tags){
+    foreach($post_tags as $tag){
+      echo '<div class="entry-tag-item"><a href="' . esc_url(get_tag_link($tag->term_id)) . '">' . $tag->name . '</a></div><!-- /entry-tag-item -->';
+    }
+  }
+}
+
+function my_link_pages(){
+  wp_link_pages(
+    array(
+      'before' => '<nav class="entry-links">',
+      'after' => '</nav>',
+      'link_before' => '',
+      'link_after' => '',
+      'next_or_number' => 'number',
+      'separator' => '',
+    )
+  );
+}
+

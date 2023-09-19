@@ -34,17 +34,7 @@
 <!-- entry-body -->
 <div class="entry-body">
   <?php the_content(); ?>
-  <?php
-    wp_link_pages(
-      array(
-        'before' => '<nav class="entry-links">',
-        'after' => '</nav>',
-        'link_before' => '',
-        'link_after' => '',
-        'next_or_number' => 'number',
-        'separator' => '',
-      )
-    );?>
+  <?php my_link_pages(); ?>
 </div><!-- /entry-body -->
 </article><!-- /entry -->
 <?php endwhile; ?><!-- hove_posts() -->
