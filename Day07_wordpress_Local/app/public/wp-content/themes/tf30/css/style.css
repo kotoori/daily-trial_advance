@@ -1511,6 +1511,10 @@ select:focus {
 	margin-top: 8px;
 }
 
+.widget_block .twitter-timeline iframe{
+	max-width: 100%;
+}
+
 .wpost-item {
 	display: flex;
 	margin-bottom: 20px;
