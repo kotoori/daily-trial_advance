@@ -22,6 +22,31 @@
 
   add_action("init", "my_menu_init");
 
+  //WPのウィジェットを有効化
+  function my_widget_init(){
+    register_sidebar(
+      array(
+        'name' => 'サイドバー',
+        'id' => 'sidebar',
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<div class="widget-title">',
+        'after_title' => '</div>',
+        )
+    );
+    register_sidebar(
+      array(
+        'name' => 'テストウィジェット',
+        'id' => 'test',
+        'before_widget' => '<div id="%1$s" class="%2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<div class="widget-title">',
+        'after_title' => '</div>',
+        )
+    );
+  }
+  add_action('widgets_init', 'my_widget_init');
+
   /* CSS/JSの読み込み */
   function my_script_init(){
     wp_enqueue_style("font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css", array(), "5.8.2", "all");
