@@ -4,7 +4,7 @@
 	<!-- pickup -->
 	<div id="pickup">
 		<div class="inner">
-			<?php get_template_part('template-parts/pickup-post'); ?>
+			<?php get_template_part('template-parts/pickup_by_tag'); ?>
 
 		</div><!-- /inner -->
 	</div><!-- /pickup -->
