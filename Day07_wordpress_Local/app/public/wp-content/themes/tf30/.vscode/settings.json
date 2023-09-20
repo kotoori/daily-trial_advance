@@ -1,9 +1,10 @@
 {
 	"intelephense.environment.includePaths": [
-		"../../plugins/breadcrumb-navxt"
+		"../../plugins/breadcrumb-navxt",
+		"../../plugins/wordpress-popular-posts"
 	],
 	"intelephense.files.associations": [
-		
+
 		"*.php",
 		"*.phtml"
 	]

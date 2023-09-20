@@ -137,3 +137,7 @@ function my_link_pages(){
   );
 }
 
+function my_get_avatar($size = 96){
+  $author_id = get_the_author_meta('ID');
+  echo get_avatar($author_id, $size);
+}
