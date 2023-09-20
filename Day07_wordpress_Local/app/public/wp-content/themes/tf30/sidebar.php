@@ -66,9 +66,10 @@
 					<div class="widget-title">新着記事</div>
 					<?php
 						$args = array(
-							'post_type' => 'post',
+							'post_type' => 'post',  //投稿タイプをpostに限定
 							'posts_per_page' => 5,  //8記事
-							'orderby' => 'date',
+							'orderby' => 'date',  //日付順
+							'order' => 'DESC',  //降順
 						);
 						$recent_query = new WP_Query($args);	// サブクエリ発行
 					?>
