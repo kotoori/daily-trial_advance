@@ -26,11 +26,7 @@
 								<a href="<?php the_permalink() ?>" class="entry-item">
 									<!-- entry-item-img -->
 									<div class="entry-item-img">
-										<?php if(has_post_thumbnail()): ?>
-											<?php the_post_thumbnail(); ?>
-										<?php else: ?>
-											<img src="<?php echo get_template_directory_uri(); ?>/img/noimg.png" alt="">
-										<?php endif; ?>
+										<?php my_the_post_thumbnail(); ?>
 									</div><!-- /entry-item-img -->
 
 									<!-- entry-item-body -->

@@ -14,11 +14,7 @@
       <?php $pickup_query->the_post();?>
       <a href="<?php the_permalink(); ?>" class="pickup-item">
         <div class="pickup-item-img">
-          <?php if(has_post_thumbnail()) :?>
-            <?php the_post_thumbnail('medium'); ?>
-          <?php else: ?>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/noimg.png" alt="">
-          <?php endif; ?>
+          <?php my_the_post_thumbnail(); ?>
           <div class="pickup-item-tag"><?php my_the_post_category(false); ?></div><!-- /pickup-item-tag -->
         </div><!-- /pickup-item-img -->
         <div class="pickup-item-body">

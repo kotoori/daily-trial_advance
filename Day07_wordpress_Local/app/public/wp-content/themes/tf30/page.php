@@ -24,11 +24,7 @@
 <!-- entry-header -->
 <div class="entry-header">
 	<h1 class="entry-title"><?php the_title() ?></h1><!-- /entry-title -->
-  <?php if(has_post_thumbnail()): ?>
-    <div class="entry-img"><?php the_post_thumbnail() ?></div><!-- /entry-img -->
-  <?php else: ?>
-    <div class="entry-img"><img src="<?php echo get_template_directory_uri(); ?>/img/noimg.png" alt=""></div><!-- /entry-img -->
-  <?php endif; ?>
+  <?php my_the_post_thumbnail(); ?>
   </div><!-- /entry-header -->
 
 <!-- entry-body -->

@@ -91,6 +91,14 @@ function my_the_post_tag($post_id = 0){
   }
 }
 
+function my_the_post_thumbnail($size = 'medium_large'){
+  if(has_post_thumbnail()){
+    the_post_thumbnail($size);
+  }else{
+    echo '<img src="' . get_template_directory_uri() . '/img/noimg.png" alt="no image">';
+  }
+}
+
 function my_link_pages(){
   wp_link_pages(
     array(

@@ -23,11 +23,7 @@ if(has_category()):
         <?php while($my_query->have_posts()):?>
           <?php $my_query->the_post(); ?>
           <a class="related-item" href="<?php the_permalink(); ?>">
-            <?php if(has_post_thumbnail()): ?>
-              <?php the_post_thumbnail(); ?>
-            <?php else: ?>
-              <div class="related-item-img"><img src="<?php echo get_template_directory_uri(); ?>/img/noimg.png" alt=""></div><!-- /related-item-img -->
-            <?php endif; ?>
+            <?php my_the_post_thumbnail('medium'); ?>
             <div class="related-item-title"><?php the_title(); ?></div><!-- /related-item-title -->
           </a><!-- /related-item -->
         <?php endwhile;?>
