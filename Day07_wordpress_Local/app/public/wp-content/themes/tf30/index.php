@@ -6,37 +6,36 @@
 		<div class="inner">
 
 			<div class="pickup-items">
-
-				<a href="#" class="pickup-item">
-					<div class="pickup-item-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/pickup1.png" alt="">
-						<div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
-					</div><!-- /pickup-item-img -->
-					<div class="pickup-item-body">
-						<h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
-					</div><!-- /pickup-item-body -->
-				</a><!-- /pickup-item -->
-
-				<a href="#" class="pickup-item">
-					<div class="pickup-item-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/pickup2.png" alt="">
-						<div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
-					</div><!-- /pickup-item-img -->
-					<div class="pickup-item-body">
-						<h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
-					</div><!-- /pickup-item-body -->
-				</a><!-- /pickup-item -->
-
-				<a href="#" class="pickup-item">
-					<div class="pickup-item-img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/pickup3.png" alt="">
-						<div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
-					</div><!-- /pickup-item-img -->
-					<div class="pickup-item-body">
-						<h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
-					</div><!-- /pickup-item-body -->
-				</a><!-- /pickup-item -->
-
+				<?php 
+					$pickup_id = array(20, 42, 44, 45);
+					$args = array(
+						'post_type' => 'post',	//投稿タイプをpostに限定
+						'post__in' => $pickup_id,   //取得したい投稿IDの配列
+						'posts_per_page' => 3,  //3記事
+						'orderby' => 'rand',
+					);
+					$pickup_query = new WP_Query($args);
+				?>
+				<?php	if($pickup_query->have_posts()): ?>
+					<?php while($pickup_query->have_posts()): ?>
+						<?php $pickup_query->the_post();?>
+						<a href="<?php the_permalink(); ?>" class="pickup-item">
+							<div class="pickup-item-img">
+								<?php if(has_post_thumbnail()) :?>
+									<?php the_post_thumbnail('medium'); ?>
+								<?php else: ?>
+									<img src="<?php echo get_template_directory_uri(); ?>/img/noimg.png" alt="">
+								<?php endif; ?>
+								
+								<div class="pickup-item-tag"><?php my_the_post_category(false); ?></div><!-- /pickup-item-tag -->
+							</div><!-- /pickup-item-img -->
+							<div class="pickup-item-body">
+								<h2 class="pickup-item-title"><?php the_title(); ?></h2><!-- /pickup-item-title -->
+							</div><!-- /pickup-item-body -->
+						</a><!-- /pickup-item -->
+					<?php endwhile; ?>
+				<?php endif; ?>
+				<?php wp_reset_postdata(); ?>
 			</div><!-- /pickup-items -->
 
 		</div><!-- /inner -->
