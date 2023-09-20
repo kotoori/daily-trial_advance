@@ -64,7 +64,30 @@
 				<!-- widget -->
 				<div class="widget widget_recent">
 					<div class="widget-title">新着記事</div>
-					<?php echo do_shortcode('[rpwe thumb_width="680" thumb_height="400" date="false" styles_default="false"]'); ?>
+					<?php
+						$args = array(
+							'post_type' => 'post',
+							'posts_per_page' => 5,  //8記事
+							'orderby' => 'date',
+						);
+						$recent_query = new WP_Query($args);	// サブクエリ発行
+					?>
+					<div class="wpost-items">
+						<?php if($recent_query->have_posts()): ?>
+							<?php while($recent_query->have_posts()): ?>
+								<?php $recent_query->the_post(); ?>
+								<!-- wpost-item -->
+								<a class="wpost-item" href="<?php the_permalink(); ?>">
+									<div class="wpost-item-img">
+										<?php my_the_post_thumbnail('medium') ?>
+									</div>
+									<div class="wpost-item-body">
+										<div class="wpost-item-title"><?php the_title(); ?></div>
+									</div><!-- /wpost-item-body -->
+								</a><!-- /wpost-item -->
+							<?php endwhile; ?>
+						<?php endif; ?>
+					</div><!-- /wpost-items -->
 				</div><!-- /widget -->
 
 				<div class="widget widget_archive">
