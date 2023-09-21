@@ -141,3 +141,20 @@ function my_get_avatar($size = 96){
   $author_id = get_the_author_meta('ID');
   echo get_avatar($author_id, $size);
 }
+
+/**
+ * 検索結果から固定ページを除外する
+ */
+function my_posts_search($search, $wp_query) {
+  // 検索結果ページ・メインクエリ・管理画面以外の3つの条件が揃った場合
+  if ($wp_query->is_search() && $wp_query->is_main_query() && !is_admin()) {
+
+    // 検索結果を投稿タイプに絞る
+    $search .= " AND post_type = 'post' ";
+
+    return $search;
+  }
+
+  return $search;
+}
+add_filter('posts_search','my_posts_search', 10, 2);
