@@ -94,9 +94,7 @@
 				<div class="widget widget_archive">
 					<div class="widget-title">アーカイブ</div>
 					<ul>
-						<li><a href="#">テキストテキストテキスト</a></li>
-						<li><a href="#">テキストテキストテキスト</a></li>
-						<li><a href="#">テキストテキストテキスト</a></li>
+						<?php wp_get_archives(); ?>
 					</ul>
 				</div><!-- /widget -->
 
