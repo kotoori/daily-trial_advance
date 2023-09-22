@@ -164,3 +164,7 @@ function my_shortcord($attrs, $content = ''){
 }
 add_shortcode('btn', 'my_shortcord');
 
+function my_searchform_shortcode($attrs, $content = ''){
+  return get_search_form(false);
+}
+add_shortcode('search-form', 'my_searchform_shortcode');
