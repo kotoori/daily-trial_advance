@@ -158,3 +158,9 @@ function my_posts_search($search, $wp_query) {
   return $search;
 }
 add_filter('posts_search','my_posts_search', 10, 2);
+
+function my_shortcord($attrs, $content = ''){
+  return '<div class="entry-btn"><a class="btn" href="' . $attrs['link'] . '">' . $content . '</a></div><!-- /entry-btn -->';
+}
+add_shortcode('btn', 'my_shortcord');
+
