@@ -43,6 +43,7 @@
               <!-- entry-body -->
               <div class="entry-body">
                 <?php the_content(); ?>
+                <?php get_template_part('template-parts/single_contact'); ?>
                 <?php my_link_pages(); ?>
               </div><!-- /entry-body -->
     

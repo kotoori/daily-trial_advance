@@ -1116,6 +1116,72 @@ select:focus {
 	color: #fff;
 }
 
+.entry-contact{
+	margin-top: 100px;
+	padding: 20px;
+	background-color: #F2F2F2;
+	position: relative;
+}
+.entry-contact::before{
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 20px 0 0;
+	border-color: #d8d8d8 transparent transparent transparent;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.entry-contact::after{
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 20px 20px;
+	border-color: transparent transparent #FFF transparent;	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+.entry-contact__text{
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.entry-contact__text span{
+	font-weight: bold;
+
+}
+
+.entry-contact__btn{
+}
+
+.entry-contact__btn a{
+	margin: 30px auto 0;
+	display: block;
+	width: 286px;
+	background-color: #d81f32;
+	padding: 18px 0;
+	text-align: center;
+	border-radius: 999px;
+	font-size: 1.125rem;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.entry-contact__btn span{
+	padding-left: 5px;
+	
+}
+.entry-contact__btn svg{
+	position: relative;
+	left: 0;
+	top: 2px;
+}
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
