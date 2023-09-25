@@ -30,11 +30,10 @@
   <main id="primary">
 
   <!-- entry -->
-  <?php if(have_posts()): ?>
-    <?php while(have_posts()): ?>
-      <?php the_post(); ?>
-
-      <article class="entry entry-work">
+  <article class="entry entry-work">
+    <?php if(have_posts()): ?>
+      <?php while(have_posts()): ?>
+        <?php the_post(); ?>
 
         <!-- entry-header -->
         <div class="entry-header">
@@ -71,9 +70,10 @@
         <div class="entry-work-btn">
           <a class="btn" href="<?php echo get_post_type_archive_link('work'); ?>">一覧に戻る</a>
         </div><!-- /entry-work-btn -->
-      </article><!-- /entry -->
-    <?php endwhile; ?>
-  <?php endif; ?>
+      <?php endwhile; ?>
+    <?php endif; ?>
+    <?php get_template_part('template-parts/relation-work'); ?>
+  </article><!-- /entry -->
 
   </main><!-- /primary -->
 
