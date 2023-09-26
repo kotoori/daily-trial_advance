@@ -47,22 +47,29 @@
 
         <div class="entry-work-body">
           <div class="entry-work-content">
-            カスタム投稿、カスタムタクソノミーでサイト構造の整理を行い、カスタムフィールドの活用によって、お客様にとっても操作性の高い管理画面の設計を行っています。
+            <?php echo nl2br(esc_html(get_field('overview'))); ?>
           </div>
           <div class="entry-work-table">
             <table>
-              <tr>
-                <th>会社名</th>
-                <td>〇〇株式会社</td>
-              </tr>
-              <tr>
-                <th>サイトURL</th>
-                <td>https://example.com</td>
-              </tr>
-              <tr>
-                <th>担当範囲</th>
-                <td>デザイン、コーディング</td>
-              </tr>
+              <?php get_field('company'); ?>
+              <?php if(get_field('company')): ?>
+                <tr>
+                  <th>会社名</th>
+                  <td><?php the_field('company'); ?></td>
+                </tr>
+              <?php endif; ?>
+              <?php if(get_field('url')): ?>
+                <tr>
+                  <th>サイトURL</th>
+                  <td><?php the_field('url'); ?></td>
+                </tr>
+              <?php endif; ?>
+              <?php if(get_field('position')): ?>
+                <tr>
+                  <th>担当範囲</th>
+                  <td><?php the_field('position'); ?></td>
+                </tr>
+              <?php endif; ?>
             </table>
           </div><!-- /entry-work-table -->
         </div><!-- /entry-work-body" -->

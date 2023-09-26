@@ -12,7 +12,14 @@
             <div class="entry-item-tag"><?php my_the_post_term('genre',false); ?></div>
           </div>
           <div class="entry-item-title"><?php the_title(); ?></div>
-          <div class="entry-item-excerpt"><?php the_excerpt(); ?></div>
+          <div class="entry-item-excerpt">
+            <?php
+              $overview = get_field('overview');
+              if($overview){
+                echo mb_substr($overview, 0, 40, 'UTF-8') . '...';
+              }
+            ?>
+          </div>
         </div><!-- /entry-item-body -->
       </a><!-- /entry-item -->
     <?php endwhile; ?><!-- hove_posts() -->
