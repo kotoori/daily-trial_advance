@@ -5,34 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
-  <?php if(is_archive()): ?>
-    <meta property="og:title" content="<?php the_archive_title(); ?>">
-    <meta property="og:site_name" content="<?php the_archive_title(); ?>">
-    <?php $category = get_the_category();
-      if($category && $category[0]): ?>
-        <meta property="og:url" content="<?php echo esc_url(get_category_link($category[0]->term_id)); ?>">
-        <meta property="og:image" content="<?php echo esc_url(get_category_link($category[0]->term_id)); ?>img/ogp.png">
-      <?php else: ?>
-        <meta property="og:url" content="">
-        <meta property="og:image" content="">
-      <?php endif; ?>
-        <?php elseif(is_single()): ?>
-    <meta property="og:title" content="<?php echo get_the_title(); ?>">
-    <meta property="og:site_name" content="<?php echo get_the_title(); ?>">
-    <meta property="og:url" content="<?php echo esc_url(get_the_permalink()); ?>">
-    <meta property="og:image" content="<?php echo esc_url(get_the_permalink()); ?>img/ogp.png">
-  <?php else : ?>
-    <meta property="og:title" content="TF-30">
-    <meta property="og:site_name" content="TF-30">
-    <meta property="og:url" content="https://example.com/">
-	<meta property="og:image" content="https://example.com/img/ogp.png">
-  <?php endif; ?>
-	<meta property="og:type" content="website">
-	<meta property="og:description" content="">
-	<meta name="twitter:card" content="summary_large_image">
-
 	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/icon-home.png">
-	<?php wp_head(); ?>
+
+  <?php wp_head(); ?>
 </head>
 
 <body>
