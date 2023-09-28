@@ -1,0 +1,523 @@
+[14-Sep-2023 01:35:40 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting end of file in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 24
+[14-Sep-2023 01:36:56 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting end of file in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 24
+[14-Sep-2023 01:37:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 24
+[14-Sep-2023 02:04:11 UTC] PHP Warning:  filemtime(): stat failed for /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/js/scrit.js in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 5
+[14-Sep-2023 07:15:05 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "elseif" or "else" or "endif" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 71
+[14-Sep-2023 14:20:44 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 89
+[14-Sep-2023 15:01:46 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 89
+[14-Sep-2023 15:02:10 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php:4477
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php(4477): ltrim(Array)
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php(89): esc_url(Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#5 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 4477
+[14-Sep-2023 15:03:43 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 1104
+[14-Sep-2023 15:48:30 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 1104
+[14-Sep-2023 15:54:00 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 1104
+[14-Sep-2023 15:56:26 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 1104
+[14-Sep-2023 15:57:00 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 1104
+[14-Sep-2023 15:57:29 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 96
+[14-Sep-2023 15:57:35 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 96
+[14-Sep-2023 15:57:36 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 1104
+[14-Sep-2023 16:00:53 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/formatting.php on line 1104
+[14-Sep-2023 16:34:14 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 26
+[14-Sep-2023 16:34:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[14-Sep-2023 16:34:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[15-Sep-2023 02:16:45 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php on line 28
+[15-Sep-2023 02:16:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ecs_url() in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php:28
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(785): require_once()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', true, Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/404.php(1): get_header()
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#7 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php on line 28
+[15-Sep-2023 04:41:18 UTC] PHP Warning:  Undefined variable $filename in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php on line 25
+[17-Sep-2023 08:35:18 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php on line 11 and exactly 1 expected in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/link-template.php:1302
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php(11): get_post_type_archive_link()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(785): require_once('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', true, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive.php(2): get_header()
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#8 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/link-template.php on line 1302
+[17-Sep-2023 08:35:38 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php on line 11 and exactly 1 expected in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/link-template.php:1302
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php(11): get_post_type_archive_link()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(785): require_once('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', true, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive.php(2): get_header()
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#8 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/link-template.php on line 1302
+[17-Sep-2023 16:28:37 UTC] PHP Warning:  Attempt to read property "term_id" on string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 25
+[17-Sep-2023 16:29:12 UTC] PHP Warning:  Attempt to read property "term_id" on string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 25
+[17-Sep-2023 16:35:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ecs_url() in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php:13
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(785): require_once()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', true, Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/category.php(2): get_header()
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#7 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/header.php on line 13
+[18-Sep-2023 08:36:11 UTC] PHP Parse error:  syntax error, unexpected token "<" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 61
+[19-Sep-2023 02:57:04 UTC] PHP Warning:  Undefined array key 0 in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/index.php on line 74
+[19-Sep-2023 02:59:30 UTC] PHP Warning:  Undefined array key 0 in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 27
+[19-Sep-2023 03:04:42 UTC] PHP Warning:  Undefined array key 0 in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 27
+[19-Sep-2023 03:17:56 UTC] PHP Parse error:  syntax error, unexpected token "{" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 85
+[19-Sep-2023 07:15:14 UTC] PHP Warning:  Undefined array key 0 in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 27
+[19-Sep-2023 08:59:43 UTC] PHP Warning:  Undefined array key 0 in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php on line 27
+[19-Sep-2023 13:50:42 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/page.php on line 191
+[19-Sep-2023 14:31:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_tmplate_part() in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries.php:36
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/date.php(27): get_template_part('template-parts/...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#7 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries.php on line 36
+[19-Sep-2023 14:52:11 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "(" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 69
+[19-Sep-2023 14:52:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[19-Sep-2023 14:52:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[19-Sep-2023 15:13:13 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 74
+[19-Sep-2023 15:19:16 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 15:21:17 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 15:23:18 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 15:25:19 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 15:26:47 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 15:26:50 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 15:26:50 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 15:27:47 UTC] PHP Parse error:  syntax error, unexpected token "echo" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 73
+[19-Sep-2023 16:26:50 UTC] PHP Parse error:  syntax error, unexpected variable "$tag", expecting "," or ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 84
+[19-Sep-2023 16:26:50 UTC] PHP Parse error:  syntax error, unexpected variable "$tag", expecting "," or ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 84
+[20-Sep-2023 01:37:31 UTC] PHP Parse error:  Unclosed '{' on line 94 in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 115
+[20-Sep-2023 01:38:53 UTC] PHP Parse error:  Unmatched '}' in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 101
+[20-Sep-2023 01:38:53 UTC] PHP Parse error:  Unmatched '}' in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 101
+[20-Sep-2023 02:59:57 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 28
+[20-Sep-2023 03:01:57 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 28
+[20-Sep-2023 03:03:57 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 31
+[20-Sep-2023 05:45:43 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 112
+[20-Sep-2023 05:45:43 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 122
+[20-Sep-2023 05:45:43 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:45:43 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:45:43 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 112
+[20-Sep-2023 05:45:43 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 122
+[20-Sep-2023 05:47:38 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 112
+[20-Sep-2023 05:47:38 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 122
+[20-Sep-2023 05:47:38 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:47:38 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:47:38 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 112
+[20-Sep-2023 05:47:38 UTC] PHP Warning:  Undefined array key "styles_default" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 122
+[20-Sep-2023 05:47:49 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:47:49 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:47:49 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:47:49 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:47:51 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:47:51 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:47:51 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:47:51 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:33 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:33 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:53 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:53 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:53 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:53 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:54 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:54 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:55 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:55 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:56 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:56 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:57 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:57 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:58 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:58 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:48:59 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:48:59 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:51:51 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:51:51 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:53:50 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:53:50 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:53:56 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:53:56 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:54:18 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:54:18 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:54:27 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:54:27 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:54:48 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:54:48 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 05:55:12 UTC] PHP Warning:  Undefined array key "cat" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 176
+[20-Sep-2023 05:55:12 UTC] PHP Warning:  Undefined array key "tag" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/plugins/recent-posts-widget-extended/classes/class-rpwe-widget.php on line 177
+[20-Sep-2023 13:57:30 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-admin/includes/translation-install.php on line 68
+[20-Sep-2023 14:05:02 UTC] WordPress database error Table 'local.wp_ppress_plans' doesn't exist for query SELECT COUNT(id) FROM wp_ppress_plans WHERE status = 'true' made by activate_plugin, plugin_sandbox_scrape, include_once('/plugins/wp-user-avatar/wp-user-avatar.php'), ProfilePress\Core\Base::get_instance, ProfilePress\Core\Base->__construct, ProfilePress\Core\Classes\PPRESS_Session::get_instance, ProfilePress\Core\Classes\PPRESS_Session->__construct, ProfilePress\Core\Classes\PPRESS_Session->should_start_session, ppress_is_any_active_plan
+[20-Sep-2023 14:18:18 UTC] PHP Parse error:  syntax error, unexpected token "{", expecting "(" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 140
+[21-Sep-2023 06:46:45 UTC] PHP Warning:  Undefined variable $test_a in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/search.php on line 6
+[21-Sep-2023 06:47:14 UTC] PHP Warning:  Undefined variable $search in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/search.php on line 7
+[22-Sep-2023 04:26:53 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 163
+[22-Sep-2023 04:26:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[22-Sep-2023 04:26:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[22-Sep-2023 04:28:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 165
+[22-Sep-2023 08:15:55 UTC] PHP Parse error:  syntax error, unexpected variable "$attrs", expecting ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 163
+[22-Sep-2023 08:16:14 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php:163
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(395): my_shortcord('', '', 'btn')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(btn)(?...', 'do_shortcode_ta...', '\n<p><strong>\xE6\x8A\x95...')
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-hook.php(310): do_shortcode('\n<p><strong>\xE6\x8A\x95...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<p><strong>\xE6\x8A\x95...', Array)
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php(45): the_content()
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#8 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#9 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#10 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 163
+[22-Sep-2023 08:17:55 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php:163
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(395): my_shortcord('', '', 'btn')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(btn)(?...', 'do_shortcode_ta...', '\n<p><strong>\xE6\x8A\x95...')
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-hook.php(310): do_shortcode('\n<p><strong>\xE6\x8A\x95...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<p><strong>\xE6\x8A\x95...', Array)
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single.php(45): the_content()
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#8 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#9 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#10 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 163
+[22-Sep-2023 08:18:18 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php:163
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(395): my_shortcord('', '', 'btn')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(btn)(?...', 'do_shortcode_ta...', '\n<p><strong>\xE6\x8A\x95...')
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-hook.php(310): do_shortcode('\n<p><strong>\xE6\x8A\x95...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<p><strong>\xE6\x8A\x95...', Array)
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1864): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/class-wp-rest-server.php(1188): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#8 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api.php(545): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api.php(2911): rest_do_request(Object(WP_REST_Request))
+#11 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#12 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/block-editor.php(743): array_reduce(Array, 'rest_preload_ap...', Array)
+#13 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#14 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-admin/post.php(187): require('/Users/hiro/Doc...')
+#15 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 163
+[22-Sep-2023 08:18:26 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php:163
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(395): my_shortcord('', '', 'btn')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(btn)(?...', 'do_shortcode_ta...', '\n<p><strong>\xE6\x8A\x95...')
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-hook.php(310): do_shortcode('\n<p><strong>\xE6\x8A\x95...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<p><strong>\xE6\x8A\x95...', Array)
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1864): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response(Object(WP_Post), Object(WP_REST_Request))
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/class-wp-rest-server.php(1188): WP_REST_Posts_Controller->get_item(Object(WP_REST_Request))
+#8 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/posts/(?...', Array, NULL)
+#9 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api.php(545): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#10 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/rest-api.php(2911): rest_do_request(Object(WP_REST_Request))
+#11 [internal function]: rest_preload_api_request(Array, '/wp/v2/posts/12...')
+#12 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/block-editor.php(743): array_reduce(Array, 'rest_preload_ap...', Array)
+#13 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-admin/edit-form-blocks.php(77): block_editor_rest_api_preload(Array, Object(WP_Block_Editor_Context))
+#14 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-admin/post.php(187): require('/Users/hiro/Doc...')
+#15 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 163
+[22-Sep-2023 08:22:51 UTC] PHP Warning:  Undefined array key "link" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 163
+[22-Sep-2023 14:28:53 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "(" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 167
+[22-Sep-2023 16:10:22 UTC] PHP Parse error:  syntax error, unexpected string content ""<a href=" . $attr" class="ent...", expecting ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:12:22 UTC] PHP Parse error:  syntax error, unexpected identifier "link", expecting ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:13:20 UTC] PHP Warning:  Undefined array key "icon" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:14:24 UTC] PHP Warning:  Undefined array key "icon" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:18:01 UTC] PHP Warning:  Undefined array key "icon" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:19:31 UTC] PHP Warning:  Undefined array key "link" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:19:31 UTC] PHP Warning:  Undefined array key "icon" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:19:53 UTC] PHP Warning:  Undefined array key "link" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:19:53 UTC] PHP Warning:  Undefined array key "icon" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[22-Sep-2023 16:22:37 UTC] PHP Warning:  Undefined array key "icon" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 173
+[24-Sep-2023 17:09:09 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:09:09 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:09:09 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:09:09 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:13:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 0 passed in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14 and exactly 2 expected in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php:1288
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php(14): get_the_terms()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php(39): get_template_part('template-parts/...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#8 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php on line 1288
+[24-Sep-2023 17:14:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_terms(), 0 passed in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14 and at least 2 expected in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php:1457
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php(14): the_terms()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php(39): get_template_part('template-parts/...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#8 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php on line 1457
+[24-Sep-2023 17:15:35 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php:14
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php(39): get_template_part('template-parts/...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#7 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:15:37 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Error could not be converted to string in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php:14
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php(39): get_template_part('template-parts/...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#7 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:20:13 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:20:13 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:20:13 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:20:13 UTC] PHP Warning:  Array to string conversion in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 14
+[24-Sep-2023 17:24:21 UTC] PHP Parse error:  syntax error, unexpected token "$", expecting variable in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 112
+[24-Sep-2023 17:24:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[24-Sep-2023 17:24:22 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[24-Sep-2023 17:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function my_the_post_term() in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php:12
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php(39): get_template_part('template-parts/...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#7 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/entries-work.php on line 12
+[24-Sep-2023 17:43:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function paginate_link() in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php:43
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#3 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 43
+[25-Sep-2023 05:21:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_archive_link() in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php:33
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#3 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:02 UTC] PHP Warning:  Undefined variable $genre in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:02 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:02 UTC] PHP Warning:  Undefined variable $genre in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:02 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:02 UTC] PHP Warning:  Undefined variable $genre in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:02 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:33 UTC] PHP Warning:  Undefined variable $genre in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:33 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:33 UTC] PHP Warning:  Undefined variable $genre in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:33 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:33 UTC] PHP Warning:  Undefined variable $genre in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:24:33 UTC] PHP Warning:  Attempt to read property "ID" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33
+[25-Sep-2023 05:26:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php on line 33 and exactly 1 expected in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/link-template.php:1302
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/archive-work.php(33): get_post_type_archive_link()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#4 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/link-template.php on line 1302
+[25-Sep-2023 06:53:35 UTC] PHP Warning:  Undefined variable $term in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 125
+[25-Sep-2023 06:53:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 125
+[25-Sep-2023 06:53:35 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 125
+[25-Sep-2023 08:13:21 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting ";" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/functions.php on line 160
+[25-Sep-2023 13:22:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 0 passed in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 2 and exactly 2 expected in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php:1288
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php(2): get_the_terms()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single-work.php(75): get_template_part('template-parts/...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#8 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php on line 1288
+[25-Sep-2023 13:22:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 0 passed in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 2 and exactly 2 expected in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php:1288
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php(2): get_the_terms()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require('/Users/hiro/Doc...')
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single-work.php(75): get_template_part('template-parts/...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#7 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#8 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/category-template.php on line 1288
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Undefined variable $arrayCatId in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 8
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Undefined variable $current_post_id in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 9
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 41
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 41
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 41
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 41
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 41
+[25-Sep-2023 13:24:50 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 41
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Undefined variable $arrayCatId in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 9
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Undefined variable $current_post_id in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 10
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:25:58 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Undefined variable $arrayCatId in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 9
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Undefined variable $current_post_id in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 10
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:17 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Undefined variable $arrayCatId in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 9
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Undefined variable $current_post_id in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 10
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:26:19 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 42
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Undefined variable $arrayCatId in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 10
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Undefined variable $current_post_id in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 11
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:27:19 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:34:29 UTC] PHP Warning:  Attempt to read property "term_id" on array in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 10
+[25-Sep-2023 13:34:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:34:29 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:34:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:34:29 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:34:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:34:29 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 43
+[25-Sep-2023 13:44:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:44:38 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:44:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:44:38 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:44:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:44:38 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:45:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:45:51 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:45:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:45:51 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:45:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:45:51 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:04 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:04 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:04 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:18 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:18 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:18 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:25 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:25 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:25 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:37 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:37 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:46:37 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:51:41 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php:17
+Stack trace:
+#0 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(787): require()
+#1 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template.php(720): load_template('/Users/hiro/Doc...', false, Array)
+#2 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single-work.php(75): get_template_part('template-parts/...')
+#4 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-includes/template-loader.php(106): include('/Users/hiro/Doc...')
+#5 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-blog-header.php(19): require_once('/Users/hiro/Doc...')
+#6 /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/index.php(17): require('/Users/hiro/Doc...')
+#7 {main}
+  thrown in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 17
+[25-Sep-2023 13:52:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:52:11 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:52:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:52:11 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:52:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:52:11 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 48
+[25-Sep-2023 13:53:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:53:34 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:53:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:53:34 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:53:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:53:34 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:11 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:11 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:11 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:27 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:27 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:54:27 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Attempt to read property "taxonomy" on array in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 13
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Attempt to read property "taxonomy" on array in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 18
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:57:48 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:59:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:59:00 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:59:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:59:00 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:59:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[25-Sep-2023 13:59:00 UTC] PHP Warning:  Attempt to read property "name" on null in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/template-parts/relation-work.php on line 51
+[26-Sep-2023 02:24:37 UTC] PHP Parse error:  syntax error, unexpected token "endif" in /Users/hiro/Documents/git/daily-trial_advance/Day07_wordpress_Local/app/public/wp-content/themes/tf30/single-work.php on line 58
