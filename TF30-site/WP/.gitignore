@@ -20,6 +20,9 @@ app/public/wp-content/themes/*
 !app/public/wp-content/themes/gulp-in-tf30
 app/public/wp-content/themes/gulp-in-tf30/css/.sass-cache/*
 app/public/wp-content/themes/gulp-in-tf30/dev/**/*
+!app/public/wp-content/themes/tf30-site
+app/public/wp-content/themes/tf30-site/css/.sass-cache/*
+app/public/wp-content/themes/tf30-site/dev/**/*
 !app/public/wp-content/themes/tf30
 app/public/wp-content/themes/tf30/css/.sass-cache/*
 app/public/wp-includes/*
