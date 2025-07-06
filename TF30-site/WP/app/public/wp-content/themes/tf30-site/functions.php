@@ -9,6 +9,12 @@
 
   add_action("after_setup_theme", "my_setup");
 
+  //固定ページの抜粋文機能を有効化する
+  function my_custom_init() {
+    add_post_type_support('page', 'excerpt');
+  }
+  add_action('init', 'my_custom_init');
+
   /* wordpress管理画面でメニューを管理する */
   function my_menu_init(){
     register_nav_menus(
@@ -55,7 +61,12 @@
     wp_enqueue_script("my", get_template_directory_uri()."/js/script.js", array("jquery"), filemtime(get_theme_file_path('/js/script.js')), true);
     if(is_single()){
       wp_enqueue_script("sns", get_template_directory_uri()."/js/sns.js", array("jquery"), filemtime(get_theme_file_path('/js/sns.js')), true);
+    }else if(is_front_page() || is_home()){
+      wp_enqueue_style("my-front-page", get_template_directory_uri()."/css/front-page.css", array(), filemtime(get_theme_file_path('css/front-page.css')), "all");
+    }else if(is_page('about')){
+      wp_enqueue_style("my-about", get_template_directory_uri()."/css/page-about.css", array(), filemtime(get_theme_file_path('css/page-about.css')), "all");
     }
+
   }
 
   add_action("wp_enqueue_scripts", "my_script_init");

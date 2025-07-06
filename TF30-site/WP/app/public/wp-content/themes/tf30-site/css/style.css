@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/earlyaccess/notosansjapanese.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -18,7 +19,8 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #fffffe;
   color: #333;
-  font-family: "Meiryo", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", sans-serif;
+  font-family: "Meiryo", "Hiragino Kaku Gothic ProN",
+    "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
@@ -161,244 +163,6 @@ q::before {
   content: none;
 }
 
-form {
-  margin: 0;
-  padding: 0;
-}
-
-form button {
-  -webkit-appearance: none;
-  background-color: #d81f32;
-  background-image: none;
-  border: none;
-  border-radius: 0;
-  box-shadow: 0.0625em 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.16);
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  margin: 0;
-  padding: 0.6em 2em;
-  text-decoration: none;
-  transition: all 0.3s ease 0s;
-  width: auto;
-}
-
-form button:hover,
-form button:focus {
-  outline: none;
-}
-
-form button:hover {
-  opacity: 0.6;
-}
-
-form button ::-moz-focus-inner {
-  border: none;
-  padding: 0;
-}
-
-input,
-textarea {
-  -webkit-appearance: none;
-  background-image: none;
-  border: 1px solid #e2e2e2;
-  border-radius: 0;
-  font-family: inherit;
-  font-size: 1em;
-  padding: 20px 24px;
-  width: 100%;
-}
-
-textarea:hover,
-textarea:focus {
-  outline: none;
-}
-
-textarea:focus {
-  border-color: #e2e2e2;
-  box-shadow: none;
-  outline: none;
-}
-
-textarea ::-moz-focus-inner {
-  border: none;
-  padding: 0;
-}
-
-input::-moz-placeholder {
-  color: #e2e2e2;
-}
-
-input::placeholder {
-  color: #e2e2e2;
-}
-
-input:focus {
-  border-color: #e2e2e2;
-  box-shadow: none;
-  outline: none;
-}
-
-input[type=submit],
-input[type=button] {
-  -webkit-appearance: none;
-  background-color: #d81f32;
-  background-image: none;
-  border: none;
-  border-radius: 0;
-  box-shadow: 0.0625em 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.16);
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  margin: 0;
-  padding: 0.6em 2em;
-  text-decoration: none;
-  transition: all 0.3s ease 0s;
-  width: auto;
-}
-
-input[type=submit]:hover,
-input[type=submit]:focus,
-input[type=button]:hover,
-input[type=button]:focus {
-  outline: none;
-}
-
-input[type=submit]:hover,
-input[type=button]:hover {
-  opacity: 0.6;
-}
-
-input[type=submit] ::-moz-focus-inner,
-input[type=button] ::-moz-focus-inner {
-  border: none;
-  padding: 0;
-}
-
-input[type=radio] {
-  display: none;
-}
-
-input[type=radio] + span {
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 16px 0 0;
-  padding: 0 0 0 30px;
-  position: relative;
-}
-
-input[type=radio] + span::before {
-  -webkit-transform: translateY(-50%);
-  background: #fff;
-  border: 1px solid #e2e2e2;
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: 26px;
-  left: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 26px;
-}
-
-input[type=radio] + span::after {
-  opacity: 0;
-  transition: opacity 0.3s ease 0s;
-}
-
-input[type=radio]:checked + span::after {
-  -webkit-transform: translateY(-50%);
-  background: #e2e2e2;
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: 10px;
-  left: 8px;
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 10px;
-}
-
-input[type=checkbox] {
-  display: none;
-}
-
-input[type=checkbox] + span {
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 16px 0 0;
-  padding: 0 0 0 30px;
-  position: relative;
-  transition: all 1s ease 0s;
-}
-
-input[type=checkbox] + span::before {
-  -webkit-transform: translateY(-50%);
-  background: #fff;
-  border: 1px solid #e2e2e2;
-  border-radius: 2px;
-  content: "";
-  display: block;
-  height: 26px;
-  left: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 26px;
-}
-
-input[type=checkbox] + span::after {
-  opacity: 0;
-  transition: opacity 0.3s ease 0s;
-}
-
-input[type=checkbox]:checked + span::after {
-  -webkit-transform: translateY(-50%) rotate(-45deg);
-  border-bottom: 4px solid #e2e2e2;
-  border-left: 4px solid #e2e2e2;
-  content: "";
-  display: block;
-  height: 15.6px;
-  left: 0;
-  margin-top: -0.2em;
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%) rotate(-45deg);
-  width: 26px;
-}
-
-select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background-image: url(../img/select-arrow.svg);
-  background-position: right 6px center;
-  background-repeat: no-repeat;
-  background-size: 24px;
-  border: 1px solid #e2e2e2;
-  border-radius: 0;
-  color: inherit;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 1em;
-  padding: 0.4em 2.4em 0.4em 0.8em;
-}
-
-select::-ms-expand {
-  display: none;
-}
-
-select:focus {
-  border-color: #e2e2e2;
-  box-shadow: none;
-  outline: none;
-}
-
 .archive-head {
   border-top: 3px solid #d81f32;
   margin-bottom: 56px;
@@ -418,7 +182,8 @@ select:focus {
 }
 
 .archive-title {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 18px;
@@ -523,7 +288,8 @@ select:focus {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin: 0;
@@ -651,7 +417,7 @@ select:focus {
   margin-right: 40px;
   text-decoration: none;
   transition: all 0.3s ease 0s;
-  width: calc(50% - 20px);
+  width: calc(50% - 40px / 2);
 }
 
 .entry-item:hover {
@@ -701,7 +467,8 @@ select:focus {
 }
 
 .entry-item-title {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.42;
@@ -740,8 +507,8 @@ select:focus {
 }
 
 .entries.m_block .entry-item {
-  margin-right: 0;
   width: 100%;
+  margin-right: 0;
 }
 
 .entries.m_block .entry-item .entry-item-body {
@@ -792,7 +559,8 @@ select:focus {
 }
 
 .entry-title {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 30px;
   font-weight: 600;
   line-height: 1.4;
@@ -847,7 +615,8 @@ select:focus {
   background: #808080;
   border-radius: 3px;
   color: #fff;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -909,7 +678,8 @@ select:focus {
   background: #ebebeb;
   border-radius: 3px;
   border-top: 6px solid #d81f32;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 26px;
   font-weight: 600;
   line-height: 1.2;
@@ -933,7 +703,8 @@ select:focus {
 
 .entry-body h3 {
   border-bottom: 3px solid #d81f32;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 22px;
   font-weight: 600;
   line-height: 1.4;
@@ -943,7 +714,8 @@ select:focus {
 }
 
 .entry-body h4 {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.6;
@@ -965,7 +737,8 @@ select:focus {
 }
 
 .entry-body h5 {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.6;
@@ -974,7 +747,8 @@ select:focus {
 }
 
 .entry-body h6 {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.6;
@@ -1031,13 +805,15 @@ select:focus {
 
 .entry-body strong,
 .entry-body b {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-weight: 600;
 }
 
 .entry-body a {
   color: #1592e6;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-weight: 600;
   transition: all 0.3s ease 0s;
 }
@@ -1057,7 +833,8 @@ select:focus {
 
 .entry-body .entry-btn .btn {
   color: #fff;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
@@ -1105,71 +882,6 @@ select:focus {
 .entry-links a:hover {
   background: #666;
   color: #fff;
-}
-
-.entry-contact {
-  background-color: #F2F2F2;
-  margin-top: 100px;
-  padding: 20px;
-  position: relative;
-}
-
-.entry-contact::before {
-  border-color: #d8d8d8 transparent transparent transparent;
-  border-style: solid;
-  border-width: 20px 20px 0 0;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 0;
-  position: absolute;
-  right: 0;
-  width: 0;
-}
-
-.entry-contact::after {
-  border-color: transparent transparent #FFF transparent;
-  border-style: solid;
-  border-width: 0 0 20px 20px;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 0;
-  position: absolute;
-  right: 0;
-  width: 0;
-}
-
-.entry-contact__text {
-  font-size: 1rem;
-  font-weight: normal;
-}
-
-.entry-contact__text span {
-  font-weight: bold;
-}
-
-.entry-contact__btn a {
-  background-color: #d81f32;
-  border-radius: 999px;
-  color: #FFF;
-  display: block;
-  font-size: 1.125rem;
-  margin: 30px auto 0;
-  padding: 18px 0;
-  text-align: center;
-  text-decoration: none;
-  width: 286px;
-}
-
-.entry-contact__btn span {
-  padding-left: 5px;
-}
-
-.entry-contact__btn svg {
-  left: 0;
-  position: relative;
-  top: 2px;
 }
 
 .gallery {
@@ -1274,8 +986,8 @@ select:focus {
 
 .widget .rpwe-ul .rpwe-li,
 .widget .rpwwt-widget li {
-  display: flex;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .widget .rpwe-ul .rpwe-li:last-child,
@@ -1301,16 +1013,17 @@ select:focus {
 }
 
 .widget .rpwe-ul .rpwe-li .rpwe-img img {
-  border: none !important;
-  box-shadow: none !important;
   margin: 0 !important;
   padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .widget .rpwe-ul .rpwe-title,
 .widget .rpwwt-widget .rpwwt-post-title {
   display: inline-block;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 14px !important;
   font-weight: 600;
   line-height: 1.57143;
@@ -1327,7 +1040,8 @@ select:focus {
 
 #toc_container .toc_title {
   border-bottom: 2px solid #d81f32;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -1345,7 +1059,8 @@ select:focus {
 #toc_container ul a {
   color: #333;
   display: inline-block;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-weight: 600;
   position: relative;
   text-decoration: none;
@@ -1435,7 +1150,8 @@ select:focus {
 }
 
 .related-title {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 22px;
@@ -1452,7 +1168,7 @@ select:focus {
   margin-right: 18px;
   text-decoration: none;
   transition: all 0.3s ease 0s;
-  width: calc(25% - 13.5px);
+  width: calc(25% - 18px * 3 / 4);
 }
 
 .related-item:hover {
@@ -1469,14 +1185,16 @@ select:focus {
 }
 
 .related-item-title {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.57143;
 }
 
 .widget_archive select {
-  background: transparent url(../img/select-arrow.svg) no-repeat center right 8px/12px 8px;
+  background: transparent url(../img/select-arrow.svg) no-repeat center right
+    8px/12px 8px;
 }
 
 .widget {
@@ -1508,8 +1226,10 @@ select:focus {
 }
 
 .widget-title {
-  background: transparent url(../img/headign-line.png) repeat-x bottom center/340px auto;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  background: transparent url(../img/headign-line.png) repeat-x bottom
+    center/340px auto;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 30px;
@@ -1567,10 +1287,6 @@ select:focus {
   margin-top: 8px;
 }
 
-.widget_block .twitter-timeline iframe {
-  max-width: 100%;
-}
-
 .wpost-item {
   display: flex;
   margin-bottom: 20px;
@@ -1606,25 +1322,13 @@ select:focus {
   width: 20px;
 }
 
-.m_ranking .wpost-item:nth-child(1)::after {
-  background: #E2AA27;
-}
-
-.m_ranking .wpost-item:nth-child(2)::after {
-  background: #CACACA;
-}
-
-.m_ranking .wpost-item:nth-child(3)::after {
-  background: #B96E45;
-}
-
 .wpost-item-img {
   width: 120px;
 }
 
 .wpost-item-img img {
-  float: none;
   margin-right: 0;
+  float: none;
 }
 
 .wpost-item-body {
@@ -1633,7 +1337,8 @@ select:focus {
 }
 
 .wpost-item-title {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.57143;
@@ -1671,7 +1376,8 @@ select:focus {
 }
 
 .widget_categories select {
-  background: transparent url(../img/select-arrow.svg) no-repeat center right 8px/12px 8px;
+  background: transparent url(../img/select-arrow.svg) no-repeat center right
+    8px/12px 8px;
 }
 
 .gallery-item {
@@ -1803,8 +1509,21 @@ select:focus {
 }
 
 .search-field {
-  padding-right: 70px;
   width: 100%;
+  -webkit-appearance: none;
+  background-image: none;
+  border: 1px solid #e2e2e2;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 20px 70px 20px 24px;
+  width: 100%;
+}
+
+.search-field:focus {
+  border-color: #e2e2e2;
+  box-shadow: none;
+  outline: none;
 }
 
 .search-submit {
@@ -1818,6 +1537,14 @@ select:focus {
   right: 24px;
   top: 50%;
   transform: translateY(-50%);
+  border: none;
+}
+
+.search-field:focus,
+.search-submit:focus {
+  border-color: #e2e2e2;
+  box-shadow: none;
+  outline: none;
 }
 
 .tagcloud {
@@ -1852,7 +1579,8 @@ select:focus {
 
 .entry-404-lead {
   color: #808080;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 24px;
@@ -1910,7 +1638,8 @@ select:focus {
 
 .footer-sub {
   color: #fff;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.71429;
@@ -2108,7 +1837,8 @@ select:focus {
 
 .header-sub {
   color: #fff;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.71429;
@@ -2144,7 +1874,8 @@ select:focus {
 .header-nav li > a {
   color: #333;
   display: block;
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease 0s;
@@ -2225,7 +1956,7 @@ select:focus {
   margin-right: 40px;
   text-decoration: none;
   transition: all 0.3s ease 0s;
-  width: calc(33.33333333% - 26.6666666667px);
+  width: calc(33.33333333% - 40px * 2 / 3);
 }
 
 .pickup-item:hover {
@@ -2246,7 +1977,8 @@ select:focus {
 }
 
 .pickup-item-title {
-  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo", "Noto Sans Japanese", sans-serif;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", "Meiryo", "Meiryo",
+    "Noto Sans Japanese", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
@@ -2270,259 +2002,333 @@ select:focus {
     padding-right: 24px;
   }
 }
+
 @media screen and (max-width: 767px) {
   body.m_fixed_sns {
     padding-bottom: 67px;
   }
+
   .archive-head {
     margin-bottom: 40px;
     padding-top: 26px;
   }
+
   .archive-head.m_description {
     margin-bottom: 92px;
   }
+
   .archive-lead {
     margin-bottom: 8px;
   }
+
   .archive-title {
     font-size: 20px;
     margin-bottom: 20px;
   }
+
   .inner {
     padding-left: 16px;
     padding-right: 16px;
   }
+
   #content > .inner {
     display: block;
     padding-top: 40px;
   }
+
   #primary {
     margin-bottom: 70px;
     width: 100%;
   }
+
   .m_one #primary {
     margin-bottom: 70px;
   }
+
   #secondary {
     width: 100%;
   }
+
   .m_one #secondary {
     display: block;
   }
+
   .breadcrumb {
     margin-bottom: 14px;
   }
+
   .drawer {
     display: block;
   }
+
   .entries {
     display: block;
   }
+
   .entry-item {
     margin-bottom: 27px;
     margin-right: 0;
     width: 100%;
   }
+
   .entry-item:last-child {
     margin-bottom: 0;
   }
+
   .entries.m_horizontal {
     margin-bottom: 40px;
   }
+
   .entries.m_horizontal .entry-item {
     margin-bottom: 20px;
     padding: 10px;
   }
+
   .entries.m_horizontal .entry-item .entry-item-img {
     width: 45.06173%;
   }
+
   .entries.m_horizontal .entry-item .entry-item-body {
     padding-left: 12px;
     width: 54.93827%;
   }
+
   .entries.m_horizontal .entry-item .entry-item-published {
     font-size: 10px;
   }
+
   .entries.m_horizontal .entry-item .entry-item-tag {
     font-size: 10px;
     margin-right: 8px;
   }
+
   .entries.m_horizontal .entry-item .entry-item-title {
     font-size: 12px;
     margin-bottom: 0;
   }
+
   .entries.m_horizontal .entry-item .entry-item-excerpt {
     display: none;
   }
+
   .entries.m_horizontal {
     margin-bottom: 40px;
   }
+
   .entries.m_horizontal .entry-item {
     margin-bottom: 20px;
     padding: 10px;
   }
+
   .entries.m_block .entry-item .entry-item-published {
     font-size: 12px;
   }
+
   .entries.m_block .entry-item .entry-item-tag {
     font-size: 12px;
   }
+
   .entries.m_block .entry-item .entry-item-title {
     font-size: 18px;
   }
+
   .entries.m_block .entry-item .entry-item-excerpt {
     font-size: 14px;
   }
+
   .entry {
     padding: 10px;
   }
+
   .entry-label a {
     font-size: 11px;
     padding: 4px 14px;
   }
+
   .entry-title {
     font-size: 24px;
     line-height: 1.41667;
   }
+
   .entry-published,
   .entry-updated {
     font-size: 11px;
   }
+
   .entry-updated {
     margin-left: 18px;
   }
+
   .entry-tag-items {
     padding-top: 24px;
   }
+
   .entry-tag-head {
     padding: 6px 15px 0;
   }
+
   .entry-tag-item a {
     padding: 4px 16px 3px;
   }
+
   .entry-body {
     padding-bottom: 24px;
   }
+
   .entry-body h2 {
     font-size: 20px;
     margin-top: 80px;
     padding: 27px 17px;
   }
+
   .entry-body h3 {
     font-size: 20px;
   }
+
   #toc_container {
     padding: 20px 20px;
   }
+
   #toc_container .toc_title {
     margin-bottom: 18px;
   }
+
   #toc_container > ul > li {
     margin-bottom: 30px;
   }
+
   #toc_container > ul > li > ul {
     margin-top: 12px;
   }
+
   .related-item {
     margin-right: 30px;
-    width: calc(50% - 15px);
+    width: calc(50% - 30px * 1 / 2);
   }
+
   .related-item:nth-child(2n) {
     margin-right: 0;
   }
+
   .widget {
     margin-bottom: 57px;
   }
+
   .entry-404 {
     padding-bottom: 0;
     padding-top: 18px;
   }
+
   .entry-404-head {
     font-size: 40px;
     margin-bottom: 36px;
   }
+
   .entry-404-head span {
     display: block;
   }
+
   .entry-404-head span::after {
     display: none;
   }
+
   .entry-404-lead {
     font-size: 20px;
     margin-bottom: 34px;
   }
+
   .entry-404-lead .m_sp {
     display: block;
   }
+
   .entry-404-content {
     font-size: 12px;
     padding-left: 24px;
     padding-right: 24px;
   }
+
   .entry-404-btn {
     margin-top: 62px;
   }
+
   #footer-menu > .inner {
     padding-bottom: 56px;
     padding-top: 54px;
   }
+
   .footer-logo {
     margin-bottom: 12px;
   }
+
   .footer-logo a {
     font-size: 26px;
   }
+
   .footer-sub {
     font-size: 12px;
     margin-bottom: 28px;
   }
+
   .footer-nav ul {
     display: block;
     text-align: center;
   }
+
   .footer-nav li {
     margin-bottom: 12px;
     margin-right: 0;
   }
+
   .footer-nav li:last-child {
     margin-bottom: 0;
   }
+
   .footer-sns {
     bottom: -67px;
   }
+
   .footer-sns > .inner {
     height: 67px;
     padding-left: 32px;
     padding-right: 32px;
   }
+
   .footer-sns-head {
     display: none;
   }
+
   .footer-sns-buttons {
     width: 100%;
   }
+
   .footer-sns-buttons ul {
     justify-content: space-between;
   }
+
   .footer-sns-buttons li {
     margin-right: auto;
   }
+
   .floating {
     bottom: 92px;
     right: 16px;
   }
+
   #header > .inner {
     display: block;
     padding-bottom: 16px;
     padding-top: 20px;
   }
+
   .header-logo {
     margin-bottom: 8px;
     text-align: center;
   }
+
   .header-logo a {
     font-size: 26px;
   }
+
   .header-sub {
     font-size: 10px;
     margin-top: 0;
@@ -2530,45 +2336,55 @@ select:focus {
     padding-right: 0;
     text-align: center;
   }
+
   .header-nav {
     display: none;
   }
+
   #mv > .inner {
     height: 400px;
   }
+
   #pickup > .inner {
     padding-bottom: 40px;
     padding-top: 40px;
   }
+
   .pickup-items {
     display: block;
   }
+
   .pickup-item {
     display: flex;
     margin-bottom: 20px;
     margin-right: 0;
     width: 100%;
   }
+
   .pickup-item:last-child {
     margin-bottom: 0;
   }
+
   .pickup-item-img {
     width: 42.40688%;
   }
+
   .pickup-item-body {
     padding-bottom: 0;
     padding-top: 0;
     width: 57.59312%;
   }
+
   .pickup-item-title {
     font-size: 16px;
     padding-left: 15px;
   }
 }
+
 /* custom */
 .mainvisual {
-  background: #f4f4f4;
   height: 230px;
+  background: #f4f4f4;
 }
 
 @media screen and (max-width: 767px) {
@@ -2576,19 +2392,20 @@ select:focus {
     height: 147px;
   }
 }
+
 .mainvisual .inner {
-  height: inherit;
-  padding-bottom: 0;
   padding-top: 0;
+  padding-bottom: 0;
   position: relative;
+  height: inherit;
 }
 
 .mainvisual-content {
-  left: 50%;
   position: absolute;
-  text-align: center;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
   width: 100%;
 }
 
@@ -2602,6 +2419,7 @@ select:focus {
     font-size: 28px;
   }
 }
+
 .mainvisual-title::before {
   color: #d81f32;
   content: "\f02d";
@@ -2619,6 +2437,7 @@ select:focus {
     padding-top: 16px;
   }
 }
+
 #content.content-work #primary {
   width: 100%;
 }
@@ -2628,6 +2447,7 @@ select:focus {
     margin-bottom: 0;
   }
 }
+
 #content.content-work .entry-label {
   margin-bottom: 8px;
 }
@@ -2637,6 +2457,7 @@ select:focus {
     margin-bottom: 14px;
   }
 }
+
 .entries-work {
   margin-bottom: 28px;
 }
@@ -2646,9 +2467,10 @@ select:focus {
     margin-bottom: 22px;
   }
 }
+
 .entries-work .entry-item {
+  width: calc(33.3333333% - 40px * 2 / 3);
   margin-bottom: 27px;
-  width: calc(33.3333333% - 26.6666666667px);
 }
 
 @media screen and (max-width: 767px) {
@@ -2656,6 +2478,7 @@ select:focus {
     width: 100%;
   }
 }
+
 .entries-work .entry-item:nth-child(2n) {
   margin-right: 40px;
 }
@@ -2665,13 +2488,13 @@ select:focus {
 }
 
 .work-breadcrumb {
-  padding-bottom: 12px;
   padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .work-breadcrumb .inner {
-  padding-bottom: 0;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .work-breadcrumb .breadcrumb {
@@ -2689,55 +2512,61 @@ select:focus {
     margin-bottom: 5px;
   }
 }
+
 .genre-nav-link {
   margin-right: 16px;
 }
 
 @media screen and (max-width: 767px) {
   .genre-nav-link {
-    margin-bottom: 12px;
     margin-right: 12px;
+    margin-bottom: 12px;
   }
 }
+
 .genre-nav-link a {
-  background: #fff;
   display: block;
-  font-family: HiraKakuPro-W6, "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W6", Meiryo, "Noto Sans Japanese", sans-serif;
+  padding: 6px 14px;
+  background: #fff;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  padding: 6px 14px;
-  text-decoration: none;
-  transition: all 0.3s ease 0s;
+  font-family: HiraKakuPro-W6, "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W6", Meiryo,
+    "Noto Sans Japanese", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
   .genre-nav-link a {
-    font-size: 16px;
     padding: 3px 8px;
+    font-size: 16px;
   }
 }
-.genre-nav-link a.is-active, .genre-nav-link a:hover {
+
+.genre-nav-link a.is-active,
+.genre-nav-link a:hover {
   background: #d81f32;
   color: #fff;
 }
 
 .entry-work {
   box-shadow: none;
-  padding-bottom: 0;
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
   .entry-work {
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
     padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
+
 .entry-work-body {
-  display: flex;
   margin-top: 40px;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
@@ -2746,29 +2575,32 @@ select:focus {
     margin-top: 40px;
   }
 }
+
 .entry-work-content {
-  line-height: 2.25;
-  padding-right: 40px;
   width: 62%;
+  padding-right: 40px;
+  line-height: 2.25;
 }
 
 @media screen and (max-width: 1099px) {
   .entry-work-content {
-    padding-right: 20px;
     width: 58%;
+    padding-right: 20px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .entry-work-content {
-    line-height: 1.875;
-    padding-right: 0;
     width: 100%;
+    padding-right: 0;
+    line-height: 1.875;
   }
 }
+
 .entry-work-table {
+  width: 38%;
   /* 384 / 1020 * 100%; */
   margin-left: auto;
-  width: 38%;
 }
 
 @media screen and (max-width: 1099px) {
@@ -2776,30 +2608,33 @@ select:focus {
     width: 42%;
   }
 }
+
 @media screen and (max-width: 767px) {
   .entry-work-table {
-    margin-left: 0;
-    margin-top: 20px;
     width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
   }
 }
+
 .entry-work-table table {
   border-color: #707070;
 }
 
-.entry-work-table th, .entry-work-table td {
+.entry-work-table th,
+.entry-work-table td {
+  padding: 8px 16px;
   border-color: #707070;
   font-size: 14px;
-  padding: 8px 16px;
   word-break: break-all;
 }
 
 .entry-work-table th {
-  background: #999;
+  width: 43%;
+  text-align: center;
   color: #fff;
   font-weight: 700;
-  text-align: center;
-  width: 43%;
+  background: #999;
 }
 
 @media screen and (max-width: 767px) {
@@ -2807,9 +2642,10 @@ select:focus {
     width: 120px;
   }
 }
+
 .entry-work-btn {
-  margin-top: 70px;
   text-align: center;
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 767px) {
@@ -2817,6 +2653,7 @@ select:focus {
     margin-top: 40px;
   }
 }
+
 .entry-work-related {
   margin-top: 74px;
 }
@@ -2826,6 +2663,7 @@ select:focus {
     margin-top: 54px;
   }
 }
+
 .entry-work-related-entries {
   margin-bottom: 0;
 }
@@ -2842,26 +2680,28 @@ select:focus {
     margin-bottom: 0;
   }
 }
+
 .entry-work-related-head {
-  background: #ebebeb;
-  border-radius: 3px;
-  border-top: 6px solid #d81f32;
   font-size: 26px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 44px;
-  padding: 24px 20px;
   position: relative;
   text-align: left;
+  background: #ebebeb;
+  border-radius: 3px;
+  border-top: 6px solid #d81f32;
+  padding: 24px 20px;
 }
 
 @media screen and (max-width: 767px) {
   .entry-work-related-head {
     font-size: 20px;
-    margin-bottom: 24px;
     padding: 27px 17px;
+    margin-bottom: 24px;
   }
 }
+
 .entry-work-related-head::after {
   border: 5px solid transparent;
   border-top: 15px solid #ebebeb;
@@ -2871,4 +2711,9 @@ select:focus {
   position: absolute;
   top: 100%;
   width: 0;
+}
+
+/*追加スタイル*/
+.mainvisual-title.is-page-work::before {
+  content: "\f109";
 }
