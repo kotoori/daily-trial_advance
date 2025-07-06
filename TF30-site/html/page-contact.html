@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>お問い合わせ</title>
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="お問い合わせ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/pagetitle/" />
+    <meta
+      property="og:image"
+      content="https://example.com/pagetitle/img/ogp.png"
+    />
+    <meta property="og:site_name" content="お問い合わせ" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/page-contact.css" />
+    <link rel="icon" href="./img/icon-home.png" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header id="header">
+      <div class="inner">
+        <div class="header-logo"><a href="/">TF-30</a></div>
+        <!-- /header-logo -->
+        <div class="header-sub">
+          サブタイトルが入りますサブタイトルが入ります
+        </div>
+        <!-- /header-sub -->
+
+        <!-- drawer -->
+        <div class="drawer">
+          <div class="drawer-icon">
+            <span class="drawer-open"><i class="fas fa-bars"></i></span
+            ><!-- /drawer-open -->
+            <span class="drawer-close"><i class="fas fa-times"></i></span
+            ><!-- drawer-close -->
+          </div>
+          <!-- /drawer-icon -->
+
+          <!-- drawer-content -->
+          <div class="drawer-content">
+            <nav class="drawer-nav">
+              <ul class="drawer-list">
+                <li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
+                <li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
+                <li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
+                <li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
+                <li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /drawer-content -->
+        </div>
+        <!-- /drawer -->
+      </div>
+      <!-- /inner -->
+    </header>
+    <!-- /header -->
+
+    <!-- header-nav -->
+    <nav class="header-nav">
+      <div class="inner">
+        <ul class="header-list">
+          <li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
+          <li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
+          <li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
+          <li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
+          <li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
+        </ul>
+      </div>
+      <!-- /inner -->
+    </nav>
+    <!-- header-nav -->
+
+    <!-- main-visual -->
+    <div class="mainvisual">
+      <div class="inner">
+        <div class="mainvisual-content">
+          <h1 class="mainvisual-title">お問い合わせ</h1>
+        </div>
+      </div>
+      <!-- /inner -->
+    </div>
+    <!-- /main-visual -->
+
+    <div class="contact-breadcrumb">
+      <div class="inner">
+        <!-- breadcrumb -->
+        <div class="breadcrumb">
+          <span property="itemListElement" typeof="ListItem">
+            <a property="item" typeof="WebPage" href="/" class="home"
+              ><span property="name">ホーム</span></a
+            >
+            <meta property="position" content="1" />
+          </span>
+          <i class="fas fa-angle-right"></i>
+          <span class="current-item">お問い合わせ</span>
+        </div>
+        <!-- /breadcrumb -->
+      </div>
+      <!-- /inner -->
+    </div>
+    <!-- /work-breadcrumb -->
+
+    <!-- entry-contact -->
+    <main class="entry-content-contact inner">
+      <p>
+        お問い合わせは、下記のフォームからお問い合わせ内容をご記入ください。<br />2日以内に担当者からメールにてご連絡いたします。
+      </p>
+      <div
+        style="height: 80px"
+        aria-hidden="true"
+        class="wp-block-spacer"
+      ></div>
+      <form>
+        <div class="form">
+          <div class="form__fields">
+            <div class="form-field">
+              <div class="form-field__head">
+                <label for="your-name" class="form-field__label">お名前</label>
+                <span class="form-field__tag">必須</span>
+              </div>
+              <div class="form-field__item">
+                <input
+                  class="form-text"
+                  type="text"
+                  name="your-name"
+                  id="your-name"
+                  placeholder="山田 太郎"
+                />
+              </div>
+            </div>
+            <div class="form-field">
+              <div class="form-field__head">
+                <label for="your-email" class="form-field__label"
+                  >メールアドレス</label
+                >
+                <span class="form-field__tag">必須</span>
+              </div>
+              <div class="form-field__item">
+                <input
+                  class="form-text"
+                  type="email"
+                  name="your-email"
+                  id="your-email"
+                  placeholder="example@example.com"
+                />
+              </div>
+            </div>
+            <div class="form-field form-field--radio">
+              <div class="form-field__head">
+                <div class="form-field__label">法人/個人の選択</div>
+                <span class="form-field__tag">必須</span>
+              </div>
+              <div class="form-field__item">
+                <span class="from-radio">
+                  <span>
+                    <label>
+                      <input
+                        type="radio"
+                        name="your-type"
+                        value="法人"
+                        checked="checked"
+                      />
+                      <span>法人</span>
+                    </label>
+                  </span>
+                  <span>
+                    <label>
+                      <input type="radio" name="your-type" value="個人" />
+                      <span>個人</span>
+                    </label>
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="form-field">
+              <div class="form-field__head">
+                <label for="your-subject" class="form-field__label"
+                  >ご用件</label
+                >
+              </div>
+              <div class="form-field__item">
+                <select
+                  class="form-select"
+                  name="your-subject"
+                  id="your-subject"
+                >
+                  <option value="">ー以下から選択してくださいー</option>
+                  <option value="">仕事の依頼</option>
+                  <option value="">取材の依頼</option>
+                  <option value="">その他</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field form-field--flex-start">
+              <div class="form-field__head">
+                <label for="your-message" class="form-field__label"
+                  >お問い合わせ内容</label
+                >
+                <span class="form-field__tag">必須</span>
+              </div>
+              <div class="form-field__item">
+                <textarea
+                  class="form-textarea"
+                  name="your-message"
+                  id="your-message"
+                  cols="40"
+                  rows="10"
+                  placeholder="こちらにお問い合わせ内容を入力してください。"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form__privacy">
+            <p class="form__privacy-text">
+              <a href="/privacy" target="_blank">プライバシーポリシー</a
+              >に関して同意の上、送信ボタンを押して下さい。
+            </p>
+            <label>
+              <input
+                type="checkbox"
+                name="your-privacy"
+                class="form-checkbox"
+              />
+              <span>プライバシーポリシーに同意する</span>
+            </label>
+          </div>
+          <input
+            type="submit"
+            value="送信する"
+            class="form-btn"
+            aria-label="送信する"
+          />
+        </div>
+      </form>
+    </main>
+    <!-- /entry-contact -->
+
+    <!-- footer-menu -->
+    <div id="footer-menu">
+      <div class="inner">
+        <div class="footer-logo"><a href="/">TF-30</a></div>
+        <!-- /footer-logo -->
+        <div class="footer-sub">
+          サブタイトルが入りますサブタイトルが入ります
+        </div>
+        <!-- /footer-sub -->
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="menu-item"><a href="#">メニュー1</a></li>
+            <li class="menu-item"><a href="#">メニュー2</a></li>
+            <li class="menu-item"><a href="#">メニュー3</a></li>
+            <li class="menu-item"><a href="#">メニュー4</a></li>
+            <li class="menu-item"><a href="#">メニュー5</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /inner -->
+    </div>
+    <!-- /footer-menu -->
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="inner">
+        <div class="copy">
+          &copy; daily-trial WordPress theme All rights reserved.
+        </div>
+        <!-- /copy -->
+        <div class="by">
+          Presented by
+          <a href="https://www.daily-trial.com/" rel="noopener" target="_blank"
+            >デイトラ</a
+          >
+        </div>
+        <!-- /by -->
+      </div>
+      <!-- /inner -->
+    </footer>
+    <!-- /footer -->
+
+    <!-- footer-sns -->
+    <div class="footer-sns">
+      <div class="inner">
+        <div class="footer-sns-head">この記事をシェアする</div>
+        <!-- /footer-sns-head -->
+
+        <nav class="footer-sns-buttons">
+          <ul>
+            <li>
+              <a
+                class="m_twitter"
+                href="https://twitter.com/share?url=https://example.com/pagetitle/&text=お問い合わせ"
+                rel="nofollow"
+                target="_blank"
+                ><img src="img/icon-twitter.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                class="m_facebook"
+                href="https://www.facebook.com/share.php?u=https://example.com/pagetitle/"
+                rel="nofollow"
+                target="_blank"
+                ><img src="img/icon-facebook.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                class="m_hatena"
+                href="https://b.hatena.ne.jp/add?mode=confirm&url=https://example.com/pagetitle/&title=お問い合わせ"
+                rel="nofollow"
+                target="_blank"
+                ><img src="img/icon-hatena.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                class="m_line"
+                href="https://social-plugins.line.me/lineit/share?url=https://example.com/pagetitle/"
+                rel="nofollow"
+                target="_blank"
+                ><img src="img/icon-line.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                class="m_pocket"
+                href="https://getpocket.com/edit?url=https://example.com/pagetitle/"
+                rel="nofollow"
+                target="_blank"
+                ><img src="img/icon-pocket.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /footer-sns-buttons -->
+      </div>
+      <!-- /inner -->
+    </div>
+    <!-- /footer-sns -->
+
+    <div class="floating">
+      <a href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
