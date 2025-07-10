@@ -1,0 +1,200 @@
+.editor-styles-wrapper {
+  overflow-x: hidden;
+  font-family: Meiryo, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro",
+    "Noto Sans Japanese", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #333;
+  background: #fffffe;
+}
+
+.editor-styles-wrapper h2 + p,
+.editor-styles-wrapper h3 + p,
+.editor-styles-wrapper h4 + p,
+.editor-styles-wrapper h5 + p,
+.editor-styles-wrapper h6 + p {
+  margin-top: 0;
+}
+
+.editor-styles-wrapper h2 {
+  position: relative;
+  padding: 24px 20px;
+  margin-top: 79px;
+  margin-bottom: 38px;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: left;
+  background: #ebebeb;
+  border-top: 6px solid #d81f32;
+  border-radius: 3px;
+}
+
+.editor-styles-wrapper h2::after {
+  position: absolute;
+  top: 100%;
+  left: 24px;
+  width: 0;
+  height: 0;
+  content: "";
+  border: 5px solid transparent;
+  border-top: 15px solid #ebebeb;
+}
+
+.editor-styles-wrapper h3 {
+  padding-bottom: 14px;
+  margin-top: 84px;
+  margin-bottom: 24px;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  border-bottom: 3px solid #d81f32;
+}
+
+.editor-styles-wrapper h4 {
+  position: relative;
+  padding-left: 42px;
+  margin-top: 82px;
+  margin-bottom: 16px;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.editor-styles-wrapper h4::before {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  font-family: "Font Awesome 5 Free", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  color: #d81f32;
+  content: "\f00c";
+}
+
+.editor-styles-wrapper h5 {
+  margin-top: 60px;
+  margin-bottom: 27px;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.editor-styles-wrapper h6 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.editor-styles-wrapper p {
+  margin-top: 30px;
+  line-height: 1.875;
+}
+
+.editor-styles-wrapper ul {
+  padding-left: 20px;
+  margin-bottom: 1em;
+  list-style-type: disc;
+}
+
+.editor-styles-wrapper ol {
+  padding-left: 20px;
+  margin-bottom: 1em;
+  list-style-type: decimal;
+}
+
+.editor-styles-wrapper li {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  line-height: 1.6;
+}
+
+.editor-styles-wrapper blockquote {
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.6;
+  background: #eee;
+}
+
+.editor-styles-wrapper blockquote > :first-child {
+  margin-top: 0;
+}
+
+.editor-styles-wrapper blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.editor-styles-wrapper q {
+  display: inline-block;
+  padding-right: 0.2em;
+  padding-left: 0.2em;
+  vertical-align: middle;
+  background: #eee;
+}
+
+.editor-styles-wrapper strong,
+.editor-styles-wrapper b {
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-weight: 600;
+}
+
+.editor-styles-wrapper a {
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-weight: 600;
+  color: #1592e6;
+  transition: all 0.3s ease 0s;
+}
+
+.editor-styles-wrapper a:hover {
+  opacity: 0.6;
+}
+
+.editor-styles-wrapper img {
+  vertical-align: middle;
+}
+
+.editor-styles-wrapper .entry-btn {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.editor-styles-wrapper .entry-btn .btn {
+  font-family: "HiraKakuPro-W6", "ヒラギノ角ゴ Pro W6", Meiryo, Meiryo,
+    "Noto Sans Japanese", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.editor-styles-wrapper .entry-btn .btn:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .editor-styles-wrapper h2 {
+    padding: 27px 17px;
+    margin-top: 80px;
+    font-size: 20px;
+  }
+
+  .editor-styles-wrapper h3 {
+    font-size: 20px;
+  }
+}

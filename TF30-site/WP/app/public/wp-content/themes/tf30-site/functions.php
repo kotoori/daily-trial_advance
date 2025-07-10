@@ -271,3 +271,18 @@ function wpcf7_autop_return_false() {
   return false;
 } 
 add_filter('wpcf7_autop_or_not', 'wpcf7_autop_return_false');
+
+function my_editor_style(){
+  global $post;
+
+  if( isset($post) ){
+    $post_slug = $post->post_name;
+    if( $post_slug === 'about' ){
+      wp_enqueue_style("my-about-editor-style", get_template_directory_uri()."/css/editor-style-about.css", array(), filemtime(get_theme_file_path('css/editor-style-about.css')), "all");
+    } elseif($post->post_type === 'post' || $post->post_type === 'work'){
+      wp_enqueue_style("font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css", array(), "5.8.2", "all");
+      wp_enqueue_style("my-editor-style", get_template_directory_uri()."/css/editor-style.css", array(), filemtime(get_theme_file_path('css/editor-style.css')), "all");
+    }
+  }
+}
+add_action('enqueue_block_editor_assets', 'my_editor_style');
