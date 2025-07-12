@@ -65,6 +65,8 @@
       wp_enqueue_style("my-front-page", get_template_directory_uri()."/css/front-page.css", array(), filemtime(get_theme_file_path('css/front-page.css')), "all");
     }else if(is_page('about')){
       wp_enqueue_style("my-about", get_template_directory_uri()."/css/page-about.css", array(), filemtime(get_theme_file_path('css/page-about.css')), "all");
+    }else if(is_page('contact')){
+      wp_enqueue_style("my-contact", get_template_directory_uri()."/css/page-contact.css", array(), filemtime(get_theme_file_path('css/page-contact.css')), "all");
     }
 
   }
@@ -286,3 +288,16 @@ function my_editor_style(){
   }
 }
 add_action('enqueue_block_editor_assets', 'my_editor_style');
+
+function redirect_to_thanks_page(){
+  if(is_page('contact')){
+echo <<<EOD
+<script>
+document.addEventListener('wpcf7mailsent', function(){
+    window.location.href = '/contact/thanks/';
+});
+</script>
+EOD;
+  }
+}
+add_action( 'wp_footer', 'redirect_to_thanks_page');
